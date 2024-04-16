@@ -1,0 +1,93 @@
+
+body,
+html {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.container {
+    align-content: center;
+    width: 615px;
+    height: 482px;
+    top: 278px;
+    left: 357px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    
+}
+
+.text {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: azure;
+  width: 60%; 
+}
+
+.img-portfolio {
+    height: 550px;
+    top: 235px;
+    left: 1030px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+      
+  width: 40%; 
+}
+
+.img-portfolio img {
+  width: 60%; 
+  height: auto;
+}
+
+span {
+  color: #22d4fd;
+}
+
+  .text {
+    width: 100%; 
+    text-align: center;
+  } 
+  
+  .buttons {
+    
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    color:#22d4fd;
+  }
+
+  
+  .button-1, .button-2 {
+    gap:16px;
+    width: 280px;
+    height: 79px ;
+    top: 681px;
+    left: 362px;
+    padding: 16px;
+    font-size: 16px; 
+    cursor: pointer; 
+    border: none;
+    border-radius: 16px;
+  }
+  
+  .button-1 {
+    background-color:#22d4fd; 
+    color:#000000;
+     
+  }
+  
+  .button-2 {
+    background-color:#22d4fd; 
+    color: #000000; 
+  }
+
